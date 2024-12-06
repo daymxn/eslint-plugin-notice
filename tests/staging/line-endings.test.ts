@@ -4,7 +4,7 @@
 
 import { normalizeLineEndings } from "../../src/utils";
 import { templateFilePath } from "../utils";
-import noticePlugin from "../..";
+import noticePlugin from "../../src";
 import { ESLint } from "@typescript-eslint/utils/ts-eslint";
 import { expect, describe, it } from "vitest";
 import path from "path";
